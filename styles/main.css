@@ -611,7 +611,8 @@ fieldset {
 .social {
   padding-left: 0;
   list-style: none;
-  margin-top: 20px; }
+  margin-top: 20px;
+  flex-direction: inline-block; }
 
 .social li {
   float: left; }
