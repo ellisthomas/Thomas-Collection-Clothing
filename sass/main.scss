@@ -229,6 +229,7 @@ header {
     -webkit-transition: all .5s;
     transition: all .5s;
     height: 65px;
+    background-color: #fff;
 }
 
 nav ul {
@@ -282,14 +283,16 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url("https://www.codehospitality.co.uk/images/code-london-restaurants.png");
+    background: url("https://static.pexels.com/photos/355988/pexels-photo-355988.jpeg");
     background-size: cover;
     height: 100vh;
+    background-color: #888;
 }
 
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+    color: white;
 }
 
 .disply-table {
