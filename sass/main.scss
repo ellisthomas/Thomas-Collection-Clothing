@@ -7,11 +7,11 @@
 
 /* Table of Content
 ==================================================
-	- Google fonts & font family -
-	- typography -
-	- General -
+    - Google fonts & font family -
+    - typography -
+    - General -
     - Preloader -
-	- Header -
+    - Header -
     - home section -
     - About section -
     - experience section -
@@ -25,6 +25,7 @@
 ==================================================*/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
+
 
 /*
 font-family: 'Playfair Display', serif;
@@ -64,6 +65,7 @@ h4:before {
 }
 
 
+
 /* General
 ==================================================*/
 
@@ -81,6 +83,7 @@ body {
 .h-50 {
     height: 50px;
 }
+
 
 
 /* preloader
@@ -221,6 +224,7 @@ body {
 }
 
 
+
 /* Header
 ==================================================*/
 
@@ -279,6 +283,7 @@ a.active {
 }
 
 
+
 /* home section
 ==================================================*/
 
@@ -301,6 +306,7 @@ a.active {
 }
 
 
+
 /* about section
 ==================================================*/
 
@@ -321,6 +327,28 @@ a.active {
     left: 50px;
     z-index: 1
 }
+
+.card {
+    width: 200px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 200px;
+}
+
+.card:hover .img-top {
+    display: inline;
+}
+
+
 
 
 /* experience section
@@ -446,6 +474,7 @@ a.active {
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
 }
+
 
 
 /* projects section
@@ -631,6 +660,7 @@ a.active {
 }
 
 
+
 /* contact
 ==================================================*/
 
@@ -759,11 +789,11 @@ fieldset {
 // .social li a:hover {
 //     color: #425BB5;
 // }
-
 .icon-social {
     height: 55px;
     width: 50px;
 }
+
 
 
 /* Responsive media queries
