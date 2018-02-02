@@ -25,12 +25,20 @@ font-family: 'Playfair Display', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
+/* scroll button
+==================================================*/
 /* typography
 ==================================================*/
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   line-height: 70px; }
+
+.logo {
+  color: #9F756C; }
+
+.mens-small {
+  image-size: 50px; }
 
 h4 {
   font-family: 'Lato', sans-serif;
@@ -55,7 +63,7 @@ h4:before {
 ==================================================*/
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px; }
 
 .size-50 {
@@ -285,7 +293,7 @@ a.active {
 
 /* projects section
 ==================================================*/
-#projects {
+#tc-ladies {
   padding: 100px 0; }
 
 .portfolio .categories-grid span {
@@ -442,11 +450,10 @@ a.active {
 /* contact
 ==================================================*/
 #contact {
-  background: url("/img/14156315_1060979207331849_1142271455_n.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
-  background-color: #888; }
+  background: #f3f3f3; }
 
 #contact-form input,
 #contact-form textarea {
