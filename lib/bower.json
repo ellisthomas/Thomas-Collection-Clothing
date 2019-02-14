@@ -1,6 +1,6 @@
 {
   "name": "lib",
-  "homepage": "https://github.com/ellisthomas/portfolio",
+  "homepage": "https://github.com/ellisthomas/Thomas-Collection-Clothing",
   "authors": [
     "ellisthomas <ellisthomas80@gmail.com>"
   ],
@@ -16,10 +16,10 @@
   ],
   "dependencies": {
     "jquery": "^3.3.1",
-    "bootstrap": "^4.0.0",
-    "angular": "^1.6.6",
-    "angular-route": "^1.6.6",
-    "angular-animate": "^1.6.6",
-    "angular-sanitize": "^1.6.6"
+    "bootstrap": "^4.2.1",
+    "angular": "^1.7.6",
+    "angular-route": "^1.7.6",
+    "angular-sanitize": "^1.7.6",
+    "angular-animate": "^1.7.6"
   }
 }
