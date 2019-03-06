@@ -37,7 +37,8 @@ font-family: 'Open Sans', sans-serif;
 /* typography
 ==================================================*/
 .tcc {
-    color: black;
+    color: lightgray;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
@@ -315,7 +316,11 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 100px 0;
+    // background: url("/img/wv.jpg");
+    background-size: no-repeat;
+    // height: 100vh;
+    // padding: 100px 0;
+    background-color: #f3f3f3;
 }
 
 .about-img-div img {
@@ -557,11 +562,11 @@ a.active {
 ==================================================*/
 
 #contact {
-    // padding: 100px 0;
-    background: url("/img/14156315_1060979207331849_1142271455_n.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+    padding: 100px 0;
+    // background: url("/img/14156315_1060979207331849_1142271455_n.jpg");
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // height: 100vh;
     background-color: #888;
 }
 
@@ -686,8 +691,9 @@ fieldset {
 //     color: #425BB5;
 // }
 .icon-social {
-    height: 55px;
-    width: 50px;
+    height: 100px;
+    width: 80px;
+    border-radius: 20%;
 }
 
 
