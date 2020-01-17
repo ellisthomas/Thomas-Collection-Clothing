@@ -30,7 +30,8 @@ font-family: 'Open Sans', sans-serif;
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 80px;
-  line-height: 70px; }
+  line-height: 70px;
+}
 
 h4 {
   font-family: 'Lato', sans-serif;
@@ -442,7 +443,7 @@ a.active {
 /* contact
 ==================================================*/
 #contact {
-  background: url("/img/14156315_1060979207331849_1142271455_n.jpg");
+  /*background: url("/img/14156315_1060979207331849_1142271455_n.jpg");*/
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
@@ -584,3 +585,5 @@ fieldset {
     margin: 6px; }
   nav li a {
     font-size: 10px; } }
+
+
